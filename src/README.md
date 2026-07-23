@@ -2,10 +2,10 @@
 
 This directory is reserved for SDK implementations. Specifications are authoritative; source code is a conforming implementation artifact.
 
-The initial .NET solution scaffold contains empty projects:
+Current .NET projects:
 
-- `StreamPipe.Abstractions` — public contracts and shared primitives
-- `StreamPipe.Core` — protocol runtime and state machines
+- `StreamPipe.Abstractions` — public data-model and streaming contracts (`DataSchema`, `LogicalType`, `IDataStream`, …)
+- `StreamPipe.Core` — reserved for shared runtime; empty until wire/streaming SPSS documents are ready
 
 Planned follow-on projects:
 

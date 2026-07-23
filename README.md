@@ -11,8 +11,8 @@ The project defines the StreamPipe Standard Specification (SPSS): a normative co
 - `spec/examples/` — informative protocol and API examples
 - `spec/diagrams/` — source-controlled diagrams
 - `spec/templates/` — authoring templates
-- `src/` — .NET SDK project scaffold (`StreamPipe.Abstractions`, `StreamPipe.Core`)
-- `tests/` — .NET test project scaffold
+- `src/` — .NET SDK (`StreamPipe.Abstractions` contracts; `StreamPipe.Core` reserved/empty)
+- `tests/` — .NET test projects
 - `.github/` — issue and pull-request templates
 
 ## Build and test (.NET)
