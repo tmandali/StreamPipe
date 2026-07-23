@@ -1,11 +1,11 @@
 # Source layout
 
-This directory contains .NET SDK implementations. Specifications in `spec/spss/` remain authoritative.
+This directory is reserved for SDK implementations. Specifications are authoritative; source code is a conforming implementation artifact.
 
-Current foundation projects:
+The initial .NET solution scaffold contains empty projects:
 
 - `StreamPipe.Abstractions` — public contracts and shared primitives
-- `StreamPipe.Core` — protocol-independent validation and lifecycle primitives
+- `StreamPipe.Core` — protocol runtime and state machines
 
 Planned follow-on projects:
 

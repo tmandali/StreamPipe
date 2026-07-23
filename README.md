@@ -11,8 +11,8 @@ The project defines the StreamPipe Standard Specification (SPSS): a normative co
 - `spec/examples/` — informative protocol and API examples
 - `spec/diagrams/` — source-controlled diagrams
 - `spec/templates/` — authoring templates
-- `src/` — .NET SDK foundation (`StreamPipe.Abstractions`, `StreamPipe.Core`)
-- `tests/` — unit and conformance tests
+- `src/` — .NET SDK project scaffold (`StreamPipe.Abstractions`, `StreamPipe.Core`)
+- `tests/` — .NET test project scaffold
 - `.github/` — issue and pull-request templates
 
 ## Build and test (.NET)
@@ -24,11 +24,9 @@ dotnet build StreamPipe.sln
 dotnet test StreamPipe.sln
 ```
 
-The first milestone implements public data-model abstractions and protocol-independent validation/lifecycle primitives only. Wire framing, transports, Arrow, and network sessions are intentionally out of scope until their SPSS documents are accepted.
-
 ## Status
 
-The specification is in its foundation phase. No wire-format behavior is normative until its corresponding SPSS document is accepted.
+The specification is in its foundation phase. No wire-format or SDK behavior is normative until its corresponding SPSS document is accepted.
 
 ## Contributing
 
