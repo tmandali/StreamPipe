@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>StreamPipe</RootNamespace>
+    <Description>Stable public contracts for StreamPipe schemas, streams, errors, and limits.</Description>
+  </PropertyGroup>
+
+</Project>

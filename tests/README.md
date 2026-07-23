@@ -1,3 +1,3 @@
 # Tests
 
-This directory will contain .NET unit, integration, interoperability, and conformance tests. Every protocol test should reference its relevant `REQ-*` identifier.
+.NET unit and conformance tests live here. Test names and comments reference applicable `REQ-*` identifiers from the SPSS documents.
